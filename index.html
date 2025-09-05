@@ -5,9 +5,145 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Charity Water Landing Page</title>
     <!-- Use Montserrat font from Google Fonts as a free alternative to Proxima Nova -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
     <!-- Link to the CSS file with brand colors and beginner styles -->
     <link rel="stylesheet" href="styles.css">
+    <style>
+      /* Add extra color and boldness for a lively look */
+
+      body {
+        background-color: #f4f8fb;
+        font-family: 'Montserrat', Arial, sans-serif;
+        color: #222;
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Hero Section: bright blue background and bold text */
+      .hero {
+        background-color: #2E9DF7; /* Brand blue */
+        color: #fff;
+        text-align: center;
+        padding: 60px 20px;
+        border-radius: 0 0 16px 16px;
+      }
+
+      .hero h1 {
+        font-size: 2.5em;
+        font-weight: 900; /* Extra bold */
+        margin-bottom: 15px;
+        letter-spacing: 1px;
+        text-shadow: 0 2px 8px rgba(0,0,0,0.18);
+      }
+
+      .hero p {
+        font-size: 1.2em;
+        font-weight: 700;
+        margin-top: 0;
+        margin-bottom: 20px;
+        text-shadow: 0 1px 4px rgba(0,0,0,0.12);
+      }
+
+      .donate-button {
+        display: inline-block;
+        background-color: #FFC907; /* Brand yellow */
+        color: #222;
+        padding: 14px 32px;
+        border-radius: 6px;
+        font-weight: 900;
+        font-size: 1.1em;
+        margin-top: 18px;
+        text-decoration: none;
+        box-shadow: 0 2px 8px rgba(46,157,247,0.15);
+        border: none;
+        cursor: pointer;
+        letter-spacing: 1px;
+        transition: background 0.3s, transform 0.2s;
+      }
+
+      .donate-button:hover {
+        background-color: #FF902A; /* Brand orange */
+        color: #fff;
+        transform: translateY(-2px) scale(1.04);
+      }
+
+      /* Story Section: light blue background and bold heading */
+      .story {
+        background-color: #8BD1CB; /* Brand light blue */
+        color: #222;
+        text-align: center;
+        padding: 30px 20px;
+        border-radius: 12px;
+        margin: 24px 10px;
+      }
+
+      .story h2 {
+        color: #159A48; /* Brand dark green */
+        font-weight: 900;
+        margin-top: 0;
+        margin-bottom: 10px;
+        letter-spacing: 1px;
+      }
+
+      .story p {
+        font-weight: 700;
+        font-size: 1.08em;
+      }
+
+      /* Impact Story Section: white background, blue heading, and image border */
+      .impact-story {
+        background-color: #fff;
+        text-align: center;
+        padding: 30px 20px;
+        border-radius: 12px;
+        margin: 24px 10px;
+        box-shadow: 0 2px 8px rgba(46,157,247,0.07);
+      }
+
+      .impact-story h2 {
+        color: #2E9DF7;
+        font-weight: 900;
+        margin-bottom: 10px;
+        letter-spacing: 1px;
+      }
+
+      .impact-image {
+        width: 100%;
+        max-width: 320px;
+        border-radius: 10px;
+        margin-bottom: 16px;
+        border: 4px solid #FFC907; /* Brand yellow border */
+        box-shadow: 0 2px 8px rgba(46,157,247,0.10);
+      }
+
+      .impact-story p {
+        font-weight: 700;
+        font-size: 1.08em;
+      }
+
+      /* Call-to-Action Section: yellow background, bold blue heading */
+      .call-to-action {
+        background-color: #FFC907; /* Brand yellow */
+        color: #222;
+        text-align: center;
+        padding: 30px 20px;
+        border-radius: 12px;
+        margin: 24px 10px;
+      }
+
+      .call-to-action h2 {
+        color: #2E9DF7;
+        font-weight: 900;
+        margin-top: 0;
+        margin-bottom: 10px;
+        letter-spacing: 1px;
+      }
+
+      .call-to-action p {
+        font-weight: 700;
+        font-size: 1.08em;
+      }
+    </style>
 </head>
 <body>
     <!-- Hero Section: Main banner at the top of the page -->
